@@ -1,5 +1,3 @@
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
-
 public class Paciente {
     //Atributos de la clase
     private String Nombre;
@@ -9,7 +7,6 @@ public class Paciente {
         //Asignacion de los valores de parametros
         Nombre = name;
         Edad = Year;
-        System.out.println("Prueba git paciente....");
     }
 
     public String getmostrarNombre(){

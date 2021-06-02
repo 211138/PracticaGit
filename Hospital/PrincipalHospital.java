@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class PrincipalHospital {
     static Paciente paciente1;//Instancia, de forma global
     public static void main(String[] args) {
-        System.out.println("Prueba git...");
-        
         solicitarDatos();//Llamada de metodo
 
         //Impresion de la informacion del objeto, se accede a los metodos de la clase paciente
